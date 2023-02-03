@@ -13,11 +13,20 @@ Options:
   -V, --version        Print version
 ```
 
+## Pre-requisites
+1. [Install Rust.](https://www.rust-lang.org/tools/install)
+   - [You need c++ build tool(on windows)](https://docs.microsoft.com/ja-jp/windows/dev-environment/rust/setup).
+2. Get maxmind db following three files from [MAXMIND Web site](https://www.maxmind.com/en/home).(Login account required)
+   - GeoLite2-ASN.mmdb
+   - GeoLite2-City.mmdb
+   - GeoLite2-Country.mmdb
+3. Put the above 3 files in any directory
+
 ## How to use(from release)
 - TODO
 
 ## How to use(from source)
-- TODO
+
 
 ## Input
 
