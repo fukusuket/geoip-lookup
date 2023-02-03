@@ -1,6 +1,6 @@
 # geoip-lookup
 
-- TODO
+- Lookup the IP address in the opened MaxMind DB
 
 ## Usage
 ```
