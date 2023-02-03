@@ -11,7 +11,6 @@ Options:
   -f, --file <FILE>        IP file path
   -h, --help               Print help
   -V, --version            Print version
-
 ```
 
 ## Input
