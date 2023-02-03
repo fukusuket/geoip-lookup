@@ -13,6 +13,12 @@ Options:
   -V, --version            Print version
 ```
 
+## How to use(from release)
+- TODO
+
+## How to use(from source)
+- TODO
+
 ## Input
 
 A file with one column of IP addresses as below
