@@ -4,13 +4,13 @@
 
 ## Usage
 ```
-Usage: geoip-lookup [OPTIONS]
+Usage: geoip-lookup [OPTIONS] --file <FILE>
 
 Options:
-  -d, --db-path <DB_PATH>  MaxDB Path [default: ./db]
-  -f, --file <FILE>        IP file path
-  -h, --help               Print help
-  -V, --version            Print version
+  -d, --db-path <DIR>  MaxMind DBs directory path(GeoLite2-ASN.mmdb/GeoLite2-City.mmdb/GeoLite2-Country.mmdb) [default: ./db]
+  -f, --file <FILE>    IP file path(only one column)
+  -h, --help           Print help
+  -V, --version        Print version
 ```
 
 ## How to use(from release)
