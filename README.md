@@ -25,4 +25,4 @@ Options:
 
 ## Acknowledgements
 - [maxminddb-rust](https://github.com/oschwald/maxminddb-rust) library by @oschwald
-- [hayabusa](https://github.com/oschwald/maxminddb-rust](https://github.com/Yamato-Security/hayabusa) by @Yamato-Security
+- [hayabusa](https://github.com/Yamato-Security/hayabusa) by @Yamato-Security
