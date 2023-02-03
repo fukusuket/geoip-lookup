@@ -16,11 +16,24 @@ Options:
 
 ## Input
 
-- TODO
+A file with one column of IP addresses as below
+
+```
+192.168.0.1
+192.168.0.2
+192.168.0.3
+...
+```
 
 ## Output
 
-- TODO
+Then IPs are enriched by MaxMind DB
+
+```
+192.168.0.1,Hogehoge Internet Ltd,United Kingdom,Kendal
+192.168.0.2,Hello-CAROLINAS,United States,Jacksonville
+192.168.0.3,ADB01,Jamaica,Kingston
+```
 
 
 ## Acknowledgements
