@@ -6,7 +6,7 @@ use clap::Parser;
 use maxminddb::{geoip2, MaxMindDBError};
 
 #[derive(Parser)]
-#[command(name = "MyApp")]
+#[command(name = "geoip-lookup")]
 #[command(author = "fukusuket")]
 #[command(version = "0.1")]
 #[command(about = "Lookup IP in the opened MaxMind DBs", long_about = None)]
