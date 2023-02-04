@@ -27,6 +27,7 @@ Options:
 ## How to use(from source)
 1. [Install Rust.](https://www.rust-lang.org/tools/install)
    - [You need c++ build tool(on windows)](https://docs.microsoft.com/ja-jp/windows/dev-environment/rust/setup).
+2. Run following command.
 ```
 cargo run -- -d ./db -f ip.csv
 ```
