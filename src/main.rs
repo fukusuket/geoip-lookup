@@ -3,7 +3,7 @@ use std::io::{BufRead, BufReader};
 use std::net::IpAddr;
 use std::path::{Path, PathBuf};
 use clap::Parser;
-use maxminddb::{geoip2, MaxMindDBError, Reader};
+use maxminddb::{geoip2, MaxMindDBError};
 
 #[derive(Parser)]
 #[command(name = "MyApp")]

@@ -7,4 +7,4 @@ edition = "2021"
 
 [dependencies]
 maxminddb = "0.17"
-clap = "4.*"
+clap = { version = "4.*", features = ["derive", "cargo", "color"]}
