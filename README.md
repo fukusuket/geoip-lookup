@@ -14,19 +14,19 @@ Options:
 ```
 
 ## Pre-requisites
-1. [Install Rust.](https://www.rust-lang.org/tools/install)
-   - [You need c++ build tool(on windows)](https://docs.microsoft.com/ja-jp/windows/dev-environment/rust/setup).
-2. Get maxmind db following three files from [MAXMIND Web site](https://www.maxmind.com/en/home).(Login account required)
+1. Get maxmind db following three files from [MAXMIND Web site](https://www.maxmind.com/en/home).(Login account required)
    - GeoLite2-ASN.mmdb
    - GeoLite2-City.mmdb
    - GeoLite2-Country.mmdb
-3. Put the above 3 files in same directory(e.g. `./db`)
-4. Create a file with [only one column of IP addresses](#Input) you want to enrich(e.g. `ip.csv`)
+2. Put the above 3 files in same directory(e.g. `./db`)
+3. Create a file with [only one column of IP addresses](#Input) you want to enrich(e.g. `ip.csv`)
 
 ## How to use(from release)
 - TODO
 
 ## How to use(from source)
+1. [Install Rust.](https://www.rust-lang.org/tools/install)
+   - [You need c++ build tool(on windows)](https://docs.microsoft.com/ja-jp/windows/dev-environment/rust/setup).
 ```
 cargo run -- -d ./db -f ip.csv
 ```
