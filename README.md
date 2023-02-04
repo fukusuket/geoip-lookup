@@ -42,7 +42,7 @@ A file with one column of IP addresses as below
 ...
 ```
 
-## Output
+## Output(stdout)
 
 Then IPs are enriched by MaxMind DB
 
