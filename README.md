@@ -21,6 +21,7 @@ Options:
    - GeoLite2-City.mmdb
    - GeoLite2-Country.mmdb
 3. Put the above 3 files in same directory(e.g. `./db`)
+4. Create a file with [only one column of IP addresses](#Input) you want to enrich.
 
 ## How to use(from release)
 - TODO
