@@ -22,7 +22,9 @@ Options:
 3. Create a file with [only one column of IP addresses](#Input) you want to enrich(e.g. `ip.csv`)
 
 ## How to use(from release)
-- TODO
+```
+geoip-lookup -d ./db -f ip.csv
+```
 
 ## How to use(from source)
 1. [Install Rust.](https://www.rust-lang.org/tools/install)
