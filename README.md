@@ -7,7 +7,7 @@
 Usage: geoip-lookup [OPTIONS] --file <FILE>
 
 Options:
-  -d, --db-path <DIR>  MaxMind DBs directory path(GeoLite2-ASN.mmdb/GeoLite2-City.mmdb/GeoLite2-Country.mmdb) [default: ./db]
+  -d, --db-path <DIR>  MaxMind DBs directory path(GeoLite2-ASN.mmdb/GeoLite2-City.mmdb/GeoLite2-Country.mmdb)
   -f, --file <FILE>    IP file path(only one column)
   -h, --help           Print help
   -V, --version        Print version
