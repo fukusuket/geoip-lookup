@@ -49,7 +49,7 @@ jobs:
         if: matrix.target == 'x86_64-apple-darwin'
         run: |
           zip --junk-paths ${{ matrix.target }} target/release/geoip-lookup
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v4
         with:
           name: build-${{ matrix.target }}
           path: ${{ matrix.target }}.zip
@@ -69,7 +69,7 @@ jobs:
           prerelease: true
       - run: |
           echo '${{ steps.create-release.outputs.upload_url }}' > release_upload_url.txt
-      - uses: actions/upload-artifact@v1
+      - uses: actions/upload-artifact@v4
         with:
           name: create-release
           path: release_upload_url.txt
@@ -90,7 +90,7 @@ jobs:
       - id: upload-url
         run: |
           echo "::set-output name=url::$(cat create-release/release_upload_url.txt)"
-      - uses: actions/download-artifact@v1
+      - uses: actions/download-artifact@v4
         with:
           name: build-${{ matrix.target }}
       - uses: actions/upload-release-asset@v1
